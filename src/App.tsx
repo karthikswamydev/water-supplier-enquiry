@@ -8,6 +8,7 @@ import {
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import { Outline } from "./Layout/Outline";
+import { PricingModal } from "./@components";
 function App() {
   return (
     <>
@@ -25,6 +26,7 @@ function App() {
       {/* <SuccessPage /> */}
       {/* <Upload /> */}
       {/* <SuccessPage /> */}
+      {/* <PricingModal /> */}
     </>
   );
 }

@@ -1,4 +1,4 @@
-import { Box, Button, Modal, Typgraphy, Typography } from "@mui/material";
+import { Box, Button, Modal, Typography, } from "@mui/material";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import blue from "@mui/material/colors/blue";
 import { useNavigate } from "react-router-dom";
@@ -153,43 +153,43 @@ export const BeverageType = () => {
   );
 };
 
-export const PricingPage = () => {
-  const style = {
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
-    width: 1000,
-    height: 500,
-    bgcolor: "background.paper",
-    borderRadius: "10px",
-    boxShadow: 24,
-    p: 4,
-  };
-  const [open, setOpen] = useState(false);
+// export const PricingPage = () => {
+//   const style = {
+//     position: "absolute",
+//     top: "50%",
+//     left: "50%",
+//     transform: "translate(-50%, -50%)",
+//     width: 1000,
+//     height: 500,
+//     bgcolor: "background.paper",
+//     borderRadius: "10px",
+//     boxShadow: 24,
+//     p: 4,
+//   };
+//   const [open, setOpen] = useState(false);
 
-  const handleOpen = () => {
-    setOpen(true);
-  };
-  const handleClose = () => {
-    setOpen(false);
-  };
-  return (
-    <>
-      <Button onClick={handleOpen}>Open modal</Button>
-      <Modal
-        open={open}
-        onClose={handleClose}
-        aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description"
-      >
-        <Box sx={style}>
-          <h2>Flavoured water Variants</h2>
-        </Box>
-      </Modal>
-    </>
-  );
-};
+//   const handleOpen = () => {
+//     setOpen(true);
+//   };
+//   const handleClose = () => {
+//     setOpen(false);
+//   };
+//   return (
+//     <>
+//       <Button onClick={handleOpen}>Open modal</Button>
+//       <Modal
+//         open={open}
+//         onClose={handleClose}
+//         aria-labelledby="modal-modal-title"
+//         aria-describedby="modal-modal-description"
+//       >
+//         <Box sx={style}>
+//           <h2>Flavoured water Variants</h2>
+//         </Box>
+//       </Modal>
+//     </>
+//   );
+// };
 
 export const BusinessSelection = () => {
   return (

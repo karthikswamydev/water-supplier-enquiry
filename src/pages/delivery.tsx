@@ -24,7 +24,7 @@ export const Delivery = (props: any) => {
     },
   });
   return (
-    <>
+<>    
       <Outline>
         <Box sx={{ paddingTop: "6%", paddingLeft: "3%" }}>
           <Typography sx={{ color: "black" }} variant="h4" gutterBottom>
